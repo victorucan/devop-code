@@ -1,6 +1,6 @@
 # Pull base image 
-From tomcat:8-jre8 
+From victorucan/tomcat-vsm:1 
 
 # Maintainer 
-MAINTAINER "kserge2001@yahoo.fr" 
+MAINTAINER "victorucan31@gmail.com" 
 COPY webapp/target/devops.war /usr/local/tomcat/webapps
